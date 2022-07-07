@@ -1,0 +1,16 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.about ::before {
+    position: absolute;
+    content: "";
+    width: 220px;
+    height: 411px;
+    right: -30px;
+    background: url("https://www.free-css.com/assets/files/free-css-templates/preview/page280/sungla/assets/images/about_right_cross.jpg");
+    background-repeat: no-repeat;
+    top: -27px;
+    z-index: -1;
+}
